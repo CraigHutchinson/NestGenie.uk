@@ -1,0 +1,25 @@
+title: NestGenie
+email: hello@nestgenie.uk
+description: >-
+  Warm, simple bird-watching products for homes, schools, and gardens.
+baseurl: ""
+url: "https://nestgenie.uk"
+lang: en-GB
+
+future_hub_note: "NestNinja upgrade options will be shared when ready."
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+header_pages:
+  - products.md
+  - about.md
+
+minima:
+  skin: solarized
+
+show_excerpts: true
