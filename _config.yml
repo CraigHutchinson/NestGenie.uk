@@ -1,12 +1,14 @@
 title: NestGenie
+tagline: Bring nature a little closer, every day.
 email: hello@nestgenie.uk
 description: >-
-  Warm, simple bird-watching products for homes, schools, and gardens.
+  Simple, ready-to-use bird-watching products for families, schools, and anyone
+  who wants to enjoy the wonder of nest life. Easy to choose, easy to set up.
 baseurl: ""
 url: "https://nestgenie.uk"
 lang: en-GB
 
-future_hub_note: "NestNinja upgrade options will be shared when ready."
+ninja_url: "https://nestninja.uk"
 
 theme: minima
 

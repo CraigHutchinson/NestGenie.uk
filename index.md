@@ -1,39 +1,39 @@
 ---
 layout: home
-title: Welcome to NestGenie 🐦
+title: NestGenie
 ---
 
 **Bring nature a little closer, every day.**
 
-NestGenie helps families, schools, and bird lovers enjoy the wonder of nest life with simple, ready-to-use products that feel friendly from day one.
+NestGenie helps families, schools, and first-time bird watchers enjoy the wonder of nest life — simple products, friendly guidance, and no complicated setup required.
 
 <div class="genie-pill-row">
   <span class="genie-pill">Easy to choose</span>
-  <span class="genie-pill">Easy to set up</span>
-  <span class="genie-pill">Made for everyday bird watching</span>
+  <span class="genie-pill">Ready to use</span>
+  <span class="genie-pill">Made for everyday enjoyment</span>
 </div>
 
 ## What you can expect
 
 <div class="genie-grid">
   <div class="genie-card">
-    <h3>🏡 Bird boxes for real gardens</h3>
-    <p>Comfortable, practical options for different spaces, from small patios to larger gardens.</p>
+    <h3>🏡 Bird boxes</h3>
+    <p>Comfortable, practical options for different garden sizes — from small patios to larger outdoor spaces. Clear guidance on where to site them and which species to attract.</p>
   </div>
   <div class="genie-card">
-    <h3>📷 Camera-ready choices</h3>
-    <p>Simple camera options and kits so you can enjoy nest moments without a complicated setup.</p>
+    <h3>📷 Nest cameras</h3>
+    <p>Simple indoor-view cameras so you can watch nesting moments from your phone, tablet, or TV. No technical expertise required.</p>
   </div>
   <div class="genie-card">
-    <h3>🎁 Thoughtful starter kits</h3>
-    <p>Bundles designed to help you get started confidently, whether for yourself or as a gift.</p>
+    <h3>🎁 Complete kits</h3>
+    <p>Curated bundles that take the guesswork out of getting started. Ideal as gifts, for schools, or for anyone buying their first bird box camera.</p>
   </div>
 </div>
 
-## A warm start, with room to grow
+[Browse products &rarr;](/products/){: .genie-cta}
 
-NestGenie is our friendly product-first branch focused on accessible bird-watching experiences.
+## A friendly start — with room to grow
 
-As our wider ecosystem grows, some products may later support optional upgrade paths into NestNinja services and the Hub (in some cases this may require alternative hardware).
+NestGenie is about making bird watching welcoming for everyone. Whether you're setting up your first garden bird box or choosing a class project for school, you'll find options that feel right without overwhelming you with choices.
 
-See our plans on the [Products](/products/) page.
+When you're ready to go further — live streaming, motion alerts, and sharing your nest with the world — selected NestGenie-compatible setups can connect to the wider [NestNinja]({{ site.ninja_url }}) ecosystem.

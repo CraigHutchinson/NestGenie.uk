@@ -4,22 +4,38 @@ title: About NestGenie
 permalink: /about/
 ---
 
-NestGenie is the warm, welcoming side of our company for people who simply want to enjoy watching birds and feeling closer to nature.
+NestGenie is the welcoming side of bird-watching — for people who want to enjoy the wonder of nest life without getting lost in technical details.
 
-## Our focus
+## What we do
 
-- Keep things clear and approachable
-- Offer dependable products with thoughtful packaging
-- Support calm, everyday enjoyment of wildlife
+We carefully select and package proven bird-watching products to make them easier to choose, easier to set up, and easier to love.
 
-## Who it is for
+- Simple, clear product guidance from the outset
+- Dependable equipment from trusted, established sources
+- Friendly support for first-time bird watchers and families
 
-NestGenie is for families, schools, first-time bird watchers, and anyone who wants a straightforward path into garden wildlife observation.
+## Who NestGenie is for
+
+Families, schools, first-time bird watchers, and anyone who has ever thought "I'd love to see inside a bird box." NestGenie is the straightforward path from that idea to actually watching.
+
+Whether you're a grandparent setting up a garden project, a teacher looking for a class activity, or someone who simply wants more nature in their day — NestGenie is for you.
 
 ## Our approach
 
-We curate and adapt off-the-shelf products for ease of use. That means better guidance, clearer options, and a friendlier starting point.
+We do not manufacture custom hardware or develop bespoke firmware. Instead, we focus on curation and the customer experience: selecting the right products, combining them thoughtfully, and wrapping them in guidance that makes the first steps feel easy.
 
-## In the future
+That means you get a reliable, ready-to-use product without wading through technical comparisons or forum posts.
 
-As NestNinja products mature, we plan to signpost suitable upgrade routes for users who want deeper features.
+## Our wider family
+
+NestGenie sits alongside [NestNinja]({{ site.ninja_url }}) — the advanced platform for enthusiasts, makers, and those who want live streaming, motion detection, and the full bird-watching community. When you're ready to explore more, we'll help you find the right path.
+
+## Based in the UK
+
+NestGenie is based in Eastbourne, East Sussex. We're a UK company, and all customer support is handled here at home.
+
+## Get in touch
+
+Questions, school or group enquiries, or just want to know when products launch?
+
+[hello@nestgenie.uk](mailto:hello@nestgenie.uk)
