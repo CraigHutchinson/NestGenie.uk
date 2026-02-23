@@ -20,7 +20,7 @@ Read this document alongside the parent project guidelines in the NestNinja pare
 ## Repository Purpose
 
 **Audience:** Families, schools, first-time bird watchers, gift buyers
-**Stack:** Jekyll 4.x, GitHub Pages, Minima theme (gem, solarized skin)
+**Stack:** Jekyll 4.x, Bulma Clean Theme (`bulma-clean-theme` gem v1.x), GitHub Pages (Actions-based deployment)
 **Live URL:** [nestgenie.uk](https://nestgenie.uk)
 **Language:** UK English throughout
 
@@ -32,7 +32,7 @@ NestGenie is the **accessible, budget-friendly** bird-watching product brand fro
 
 **Tagline:** *"Bring nature a little closer, every day."*
 **Tone:** Warm, friendly, welcoming — this is a family brand. Write as if you are talking to a parent, teacher, or enthusiastic grandparent, not a developer or maker.
-**Colour palette:** Warm purples and cream (not the NestNinja blue)
+**Colour palette:** Nature green (`#4a8c3f`) as Bulma `$primary` — distinct from the NestNinja blue
 
 ### NestGenie Is:
 - A curated selection of bird-watching products (bird boxes, cameras, complete kits)
@@ -94,18 +94,40 @@ Some NestGenie-compatible devices may in future support optional upgrade paths t
 ## Site Structure
 
 ```
-_config.yml          # Production Jekyll config
-_config.local.yml    # Local dev overrides (not committed to _site)
-_posts/              # Blog posts (YYYY-MM-DD-title.md)
-_includes/           # Reusable partials (custom-head.html)
-_layouts/            # Page templates (home.html)
-_sass/               # Custom SCSS (nestgenie.scss)
-assets/              # CSS (main.scss)
-index.md             # Homepage
-products.md          # Product range
-about.md             # About NestGenie
-404.md               # Error page
+_config.yml                       # Production Jekyll config (baseurl: "")
+_data/
+  navigation.yml                  # Top navbar links
+  genie_callouts.yml              # Homepage callout cards
+  genie_footer_menu.yml           # Footer navigation links
+_includes/
+  hero.html                       # Override of Bulma Clean Theme hero (adds photo attribution)
+_posts/                           # Blog posts (YYYY-MM-DD-title.md)
+assets/
+  css/app.scss                    # Custom SCSS entry point (overrides $primary: #4a8c3f)
+  favicon.svg                     # SVG favicon (green rounded-rect with leaf)
+  img/                            # Images (see TODO.md for placeholder attribution)
+.github/workflows/jekyll.yml      # GitHub Actions deployment (Actions-based, not default Pages)
+index.md                          # Homepage
+products.md                       # Product range
+about.md                          # About NestGenie
+404.md                            # Error page
+TODO.md                           # Placeholder image attribution + content backlog
 ```
+
+---
+
+## Architectural Decision: Always Use `relative_url` for Internal Links and Assets
+
+**Decision (2026-02-23):** Every internal link and asset reference must pass through Jekyll's `relative_url` filter (or its Liquid equivalent). Never output bare absolute paths like `/assets/...` or `/products/` directly into HTML attributes.
+
+**Rationale:** The GitHub Actions workflow passes `--baseurl "${{ steps.pages.outputs.base_path }}"` at build time. When the site is deployed from the `CraigHutchinson/NestGenie.uk` repository before a custom domain is configured, `base_path` resolves to `/NestGenie.uk`. Bare paths like `/assets/img/hero.jpg` will resolve to the wrong host root (`/assets/...`) instead of the correct subpath (`/NestGenie.uk/assets/...`). In production with `baseurl: ""` the filter is a no-op, so there is no downside.
+
+**Rules:**
+- In **Liquid templates and Markdown front matter** (e.g. `hero_image`): the consuming template must apply `| relative_url` — verified in `_includes/hero.html`.
+- In **raw HTML inside `.md` files** (e.g. `<img src="...">`): use `{{ "/assets/img/file.jpg" | relative_url }}` as the `src` value.
+- In **`_data/` YAML files** (navigation, callouts, footer): paths like `/products/` are fine — the Bulma Clean Theme templates apply `| relative_url` to all `link:` and `call_to_action_link:` values. Verified in theme source.
+- In **`_config.yml`** (e.g. `favicon:`): set the bare path — the theme's `head.html` applies `| relative_url`. Verified in theme source.
+- **Do not** use `site.baseurl` string concatenation (e.g. `{{ site.baseurl }}/assets/...`) — use `| relative_url` instead, which handles edge cases and trailing slashes correctly.
 
 ---
 
@@ -146,6 +168,6 @@ Links to NestNinja should use `{{ site.ninja_url }}` — **never** hardcode `htt
 
 ## Version
 
-**Last Updated:** 2026-02-22
+**Last Updated:** 2026-02-23
 **Applies to:** NestGenie.uk repository only
 **For:** Claude, GitHub Copilot, and other AI coding assistants
