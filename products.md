@@ -20,7 +20,7 @@ Ready-to-enjoy bird-watching products that are easy to buy, easy to fit, and eas
 <div class="columns is-vcentered product-section">
   <div class="column is-5">
     <figure class="product-image">
-      <img src="/assets/img/product-bird-box.jpg" alt="A blue tit entering a wooden nest box">
+      <img src="{{ "/assets/img/product-bird-box.jpg" | relative_url }}" alt="A blue tit entering a wooden nest box">
     </figure>
     <p class="product-photo-credit">Photo: <a href="https://www.flickr.com/photos/13497267@N04/17548822060" target="_blank" rel="noopener">pete. #hwcp (CC BY 2.0)</a></p>
   </div>
@@ -43,7 +43,7 @@ Ready-to-enjoy bird-watching products that are easy to buy, easy to fit, and eas
 <div class="columns is-vcentered product-section">
   <div class="column is-5">
     <figure class="product-image">
-      <img src="/assets/img/product-nest-camera.jpg" alt="A monitor screen showing a live nest camera view of blue tit eggs">
+      <img src="{{ "/assets/img/product-nest-camera.jpg" | relative_url }}" alt="A monitor screen showing a live nest camera view of blue tit eggs">
     </figure>
     <p class="product-photo-credit">Photo: <a href="https://www.flickr.com/photos/13497267@N04/52014594543" target="_blank" rel="noopener">pete. #hwcp (CC BY 2.0)</a></p>
   </div>
@@ -66,7 +66,7 @@ Ready-to-enjoy bird-watching products that are easy to buy, easy to fit, and eas
 <div class="columns is-vcentered product-section">
   <div class="column is-5">
     <figure class="product-image">
-      <img src="/assets/img/product-eggs.jpg" alt="Seven blue tit eggs in a nest box — the moment a complete kit is designed for">
+      <img src="{{ "/assets/img/product-eggs.jpg" | relative_url }}" alt="Seven blue tit eggs in a nest box — the moment a complete kit is designed for">
     </figure>
     <p class="product-photo-credit">Photo: <a href="https://www.flickr.com/photos/26445715@N00/49824586416" target="_blank" rel="noopener">muffinn (CC BY 2.0)</a></p>
   </div>
