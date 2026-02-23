@@ -32,6 +32,33 @@ a:hover { color: #366b2e; }
   position: relative;
 }
 
+// Product page: image + text side-by-side sections
+.product-section {
+  margin-bottom: 2.5rem;
+
+  .product-image {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+
+    img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+    }
+  }
+
+  .product-photo-credit {
+    font-size: 0.65rem;
+    color: #aaa;
+    margin-top: 0.25rem;
+
+    a {
+      color: #aaa;
+    }
+  }
+}
+
 .hero-photo-credit {
   position: absolute;
   bottom: 0.4rem;

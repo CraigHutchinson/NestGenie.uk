@@ -14,6 +14,9 @@ photography before commercial launch.
 | `assets/img/hero-products.jpg` | Products hero | Blue tit inside a nest box | fs-phil | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) | [Wikimedia](https://commons.wikimedia.org/wiki/File:Blue_Tit_-Cyanistes_caeruleus_-inside_nest_box-4.jpg) |
 | `assets/img/hero-about.jpg` | About hero | Robin at Lackford Lakes | Chris Combe, York UK | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) | [Wikimedia](https://commons.wikimedia.org/wiki/File:Robin_-_Lackford_Lakes_(31863862881).jpg) |
 | `assets/img/blog-nest.jpg` | Blog post hero | Bird nest in a bush | Airwolfhound | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) | [Wikimedia](https://commons.wikimedia.org/wiki/File:Bird_Nest_(3600492937).jpg) |
+| `assets/img/product-bird-box.jpg` | Products page — Bird Boxes | Blue tit entering a wooden nest box | pete. #hwcp | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) | [Flickr](https://www.flickr.com/photos/13497267@N04/17548822060) |
+| `assets/img/product-nest-camera.jpg` | Products page — Nest Cameras | Monitor showing live nest camera with blue tit eggs | pete. #hwcp | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) | [Flickr](https://www.flickr.com/photos/13497267@N04/52014594543) |
+| `assets/img/product-eggs.jpg` | Products page — Complete Kits | Seven blue tit eggs in a nest box | muffinn | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) | [Flickr](https://www.flickr.com/photos/26445715@N00/49824586416) |
 
 ### What to commission
 
@@ -21,6 +24,9 @@ photography before commercial launch.
 - [ ] Hero (products): Clean product shot — bird box and/or nest camera on neutral/garden background
 - [ ] Hero (about): Warm lifestyle shot — family or person watching a bird box in a garden
 - [ ] Blog default: Atmospheric close-up of a nest with eggs, soft bokeh background
+- [ ] Products — Bird Boxes: Clean exterior shot of a wooden nest box in a UK garden
+- [ ] Products — Nest Cameras: Camera module or screen showing live nest view, well-lit product shot
+- [ ] Products — Complete Kits: Lifestyle / gifting shot — complete kit box, perhaps with spring theme
 - [ ] Callout icons: Consider replacing FA icon callouts with custom illustrated icons
 
 ---
