@@ -1,0 +1,4 @@
+- name: Products
+  link: /products/
+- name: About
+  link: /about/

@@ -1,0 +1,26 @@
+style: is-light
+items:
+  - title: Bird Boxes
+    subtitle: Comfortable homes for garden birds
+    icon: fa-house
+    description: >
+      Traditional and contemporary styles for common British garden birds —
+      blue tits, great tits, sparrows, and more. Clear siting guidance included.
+    call_to_action_name: See Products
+    call_to_action_link: /products/
+  - title: Nest Cameras
+    subtitle: Watch nesting moments unfold
+    icon: fa-video
+    description: >
+      Simple indoor-view cameras with night vision and easy Wi-Fi setup.
+      Watch from your phone, tablet, or TV — no technical expertise required.
+    call_to_action_name: See Products
+    call_to_action_link: /products/
+  - title: Complete Kits
+    subtitle: Everything you need in one box
+    icon: fa-gift
+    description: >
+      Compatible bird box and camera bundled together. Thoughtfully packaged
+      and ready to give as a gift or to get started straight away.
+    call_to_action_name: See Products
+    call_to_action_link: /products/

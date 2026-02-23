@@ -1,6 +1,13 @@
 ---
 layout: page
 title: About NestGenie
+subtitle: The welcoming side of bird-watching
+hero_height: is-small
+hero_image: /assets/img/hero-about.jpg
+hero_darken: true
+hero_attribution_name: "Chris Combe (CC BY 2.0)"
+hero_attribution_url: "https://commons.wikimedia.org/wiki/File:Robin_-_Lackford_Lakes_(31863862881).jpg"
+show_sidebar: false
 permalink: /about/
 ---
 

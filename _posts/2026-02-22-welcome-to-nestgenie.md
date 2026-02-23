@@ -3,6 +3,13 @@ layout: post
 title: "Welcome to NestGenie"
 date: 2026-02-22 12:00:00 +0000
 categories: news
+image: /assets/img/blog-nest.jpg
+hero_image: /assets/img/blog-nest.jpg
+hero_height: is-small
+hero_darken: true
+hero_attribution_name: "Airwolfhound (CC BY-SA 2.0)"
+hero_attribution_url: "https://commons.wikimedia.org/wiki/File:Bird_Nest_(3600492937).jpg"
+show_sidebar: false
 ---
 
 Every year, millions of garden birds search for safe, warm spots to raise their young — and most of the time, we have no idea it's happening.

@@ -1,0 +1,54 @@
+---
+---
+
+// ── Import Bulma Clean Theme ──────────────────────────────────────────────────
+// @use (modern Sass module syntax) avoids the Dart Sass @import deprecation
+// warning in our root stylesheet. Only !default variables from _main.scss can
+// be configured here — $primary qualifies; $link and $family-sans-serif do not,
+// so those are overridden via CSS below.
+
+@use "main" with (
+  $primary: #4a8c3f
+);
+
+// ── NestGenie custom styles ───────────────────────────────────────────────────
+
+// Link colour — can't set via @use with(), so override via CSS
+a { color: #4a8c3f; }
+a:hover { color: #366b2e; }
+
+// Rounder callout cards
+.card {
+  border-radius: 10px;
+}
+
+// Footer: tighten spacing on a small product site
+.footer {
+  padding: 2rem 1.5rem;
+}
+
+// Photo attribution credit in the corner of hero images
+.hero {
+  position: relative;
+}
+
+.hero-photo-credit {
+  position: absolute;
+  bottom: 0.4rem;
+  right: 0.6rem;
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.75);
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.15rem 0.45rem;
+  border-radius: 3px;
+  margin: 0;
+
+  a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: underline;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}

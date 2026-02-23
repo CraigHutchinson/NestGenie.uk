@@ -10,18 +10,40 @@ lang: en-GB
 
 ninja_url: "https://nestninja.uk"
 
-theme: minima
+theme: bulma-clean-theme
+force_theme: light
+theme_color: "#4a8c3f"
+fixed_navbar: top
+
+permalink: pretty
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - kramdown-parser-gfm
+  # jekyll-paginate intentionally omitted — add back when a blog/index.html exists
 
-header_pages:
-  - products.md
-  - about.md
+footer_menu: genie_footer_menu
 
-minima:
-  skin: solarized
+markdown: kramdown
+highlighter: rouge
 
-show_excerpts: true
+favicon: /assets/favicon.svg
+
+sass:
+  style: compressed
+  quiet_deps: true  # suppress deprecation warnings from Bulma/theme internals
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: false
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      show_sidebar: false

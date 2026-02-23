@@ -1,16 +1,15 @@
 source "https://rubygems.org"
 
-# Jekyll (use directly instead of github-pages to support Ruby 4.0)
 gem "jekyll", "~> 4.4"
+gem "bulma-clean-theme"
 
-# Jekyll plugins
+# Bulma Clean Theme dependencies (declared explicitly for clarity)
 group :jekyll_plugins do
   gem "jekyll-feed"
-  gem "jekyll-remote-theme"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
-  gem "jekyll-target-blank"
-  gem "jemoji"
+  gem "jekyll-paginate"
+  gem "kramdown-parser-gfm"
   gem "webrick"
   gem "csv"
 end

@@ -1,6 +1,13 @@
 ---
 layout: page
 title: Products
+subtitle: Ready-to-enjoy bird-watching products
+hero_height: is-small
+hero_image: /assets/img/hero-products.jpg
+hero_darken: true
+hero_attribution_name: "fs-phil (CC BY-SA 2.0)"
+hero_attribution_url: "https://commons.wikimedia.org/wiki/File:Blue_Tit_-Cyanistes_caeruleus_-inside_nest_box-4.jpg"
+show_sidebar: false
 permalink: /products/
 ---
 
